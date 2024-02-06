@@ -1,6 +1,8 @@
 'use strict';
 
 window.addEventListener('load', () => {
+   const elems = document.querySelectorAll('.scroll-animate');
+
    const animate = ({timing, draw, duration}) => {
       const start = performance.now();
    
@@ -15,7 +17,59 @@ window.addEventListener('load', () => {
    
          if (progress < 1) requestAnimationFrame(animate);
       })
+   };
+
+   const scrollAnimate = (progress, action, elem) => {
+   
+      if (action === 'top-to-bottom') {
+         elem.style.top = -(1-progress) * 100 + 'px';
+      }
+
+      if (action === 'bottom-to-top') {
+         elem.style.bottom = -(1-progress) * 100 + 'px';
+      }
+
+      if (action === 'right-to-left') {
+         elem.style.right = -(1-progress) * 100 + 'px';
+      }
+
+      if (action === 'left-to-right') {
+         elem.style.left = -(1-progress) * 100 + 'px';
+      }
+   
+      elem.style.opacity = progress;
    }
+   
+   const options = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0
+   }
+   
+   const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              const hidedElem = entry.target;
+              const params = hidedElem.getAttribute('data-animate').split(',');
+              const duration = +params[0];
+              const action = params[1];
+              const delay = params[2];
+              setTimeout(() => {
+               animate({
+                  duration: duration,
+                  timing(timeFraction) {
+                    return timeFraction;
+                  },
+                  draw(progress) {
+                     scrollAnimate(progress, action, hidedElem);
+                  }
+                });
+              }, delay)
+              
+              observer.unobserve(hidedElem);
+          }
+      })
+   }, options)
    
    const scrollDown = () => {
       const headDown = document.querySelector('.head__down');
@@ -125,49 +179,7 @@ window.addEventListener('load', () => {
    scrollDown();
    slider('adler');
    slider('bar');
-   
-   const scrollAnimate = (progress, action, elem) => {
-   
-      if (action === 'top-to-bottom') {
-         elem.style.top = -(1-progress) * 100 + 'px';
-      }
-   
-      elem.style.opacity = progress;
-   }
-   
-   const options = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0
-   }
-   
-   const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              const hidedElem = entry.target;
-              const params = hidedElem.getAttribute('data-animate').split(',');
-              const duration = +params[0];
-              const action = params[1];
-              const delay = params[2];
-              console.log(delay)
-              setTimeout(() => {
-               animate({
-                  duration: duration,
-                  timing(timeFraction) {
-                    return timeFraction;
-                  },
-                  draw(progress) {
-                     scrollAnimate(progress, action, hidedElem);
-                  }
-                });
-              }, delay)
-              
-              observer.unobserve(hidedElem);
-          }
-      })
-   }, options)
-   
-   const elems = document.querySelectorAll('.scroll-animate');
+
    elems.forEach(elem => {
       const params = elem.getAttribute('data-animate').split(',');
       const action = params[1];

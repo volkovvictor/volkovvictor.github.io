@@ -134,6 +134,17 @@ h6 {
   position: relative;
 }
 
+.wrapper {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .container {
   max-width: 1480px;
   padding: 0 20px;
@@ -253,6 +264,12 @@ h6 {
   }
 }
 
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
 .about {
   position: relative;
   z-index: 2;
@@ -352,6 +369,12 @@ h6 {
   background-color: #aeb1ae;
 }
 
+@media (max-width: 768px) {
+  .photos {
+    padding: 50px 0;
+  }
+}
+
 .title {
   text-align: center;
   font-weight: 600;
@@ -371,14 +394,26 @@ h6 {
           transform: translateX(-50%);
 }
 
+@media (max-width: 768px) {
+  .title {
+    margin: 0 0 50px 0;
+  }
+}
+
 .slider {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .slider {
+    padding: 0 0 50px 0;
+  }
+}
+
 .slider__slides {
   position: relative;
-  height: 700px;
-  padding: 0 70px;
+  padding: 0 0 51%;
+  min-height: 200px;
 }
 
 .slider__slide {
@@ -406,6 +441,12 @@ h6 {
   transition: opacity .5s linear;
 }
 
+@media (max-width: 768px) {
+  .slider__slide {
+    padding: 0;
+  }
+}
+
 .slider__buttons {
   position: absolute;
   display: -webkit-box;
@@ -420,6 +461,14 @@ h6 {
   width: 100%;
   bottom: 30px;
   left: 0;
+}
+
+@media (max-width: 768px) {
+  .slider__buttons {
+    bottom: -50px;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
 }
 
 .slider__button {
@@ -439,6 +488,20 @@ h6 {
 
 .slider__button.active {
   background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .slider__button {
+    width: 8px;
+    height: 8px;
+    margin: 0 7px;
+  }
+  .slider__button:hover {
+    background-color: #333333;
+  }
+  .slider__button.active {
+    background-color: #333333;
+  }
 }
 
 .slider__arrow {
@@ -462,6 +525,22 @@ h6 {
   right: 0;
   -webkit-transform: translateY(-50%) rotate(-90deg);
           transform: translateY(-50%) rotate(-90deg);
+}
+
+@media (max-width: 768px) {
+  .slider__arrow {
+    width: 20px;
+    top: auto;
+    bottom: 0;
+  }
+  .slider__arrow_prev {
+    -webkit-transform: translateY(50%) rotate(90deg);
+            transform: translateY(50%) rotate(90deg);
+  }
+  .slider__arrow_next {
+    -webkit-transform: translateY(50%) rotate(-90deg);
+            transform: translateY(50%) rotate(-90deg);
+  }
 }
 
 .sochi-gallery {
@@ -579,6 +658,9 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 35px;
+          flex: 0 0 35px;
   width: 35px;
   height: 35px;
   margin: 0 15px;
@@ -592,6 +674,20 @@ h6 {
 
 .footer__icons a:hover {
   opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .footer__icons {
+    margin: 0 -10px;
+  }
+  .footer__icons a {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25px;
+            flex: 0 0 25px;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+  }
 }
 
 .footer__up {
@@ -618,4 +714,13 @@ h6 {
 
 .footer__up img {
   width: 25px;
+}
+
+@media (max-width: 768px) {
+  .footer__up {
+    font-size: 16px;
+  }
+  .footer__up span {
+    padding: 0 0 0 10px;
+  }
 }
