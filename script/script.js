@@ -16,6 +16,8 @@ window.addEventListener('load', () => {
          draw(progress);
    
          if (progress < 1) requestAnimationFrame(animate);
+
+         //requestAnimationFrame(animate);
       })
    };
 
@@ -54,7 +56,6 @@ window.addEventListener('load', () => {
               const duration = +params[0];
               const action = params[1];
               const delay = params[2];
-              setTimeout(() => {
                animate({
                   duration: duration,
                   timing(timeFraction) {
@@ -64,7 +65,6 @@ window.addEventListener('load', () => {
                      scrollAnimate(progress, action, hidedElem);
                   }
                 });
-              }, delay)
               
               observer.unobserve(hidedElem);
           }
