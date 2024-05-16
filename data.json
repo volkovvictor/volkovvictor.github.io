@@ -1,0 +1,280 @@
+{
+  "catastrophe": [
+    {
+      "id": "21dd629e-f6c4-4518-90cc-effbd3d0ec57",
+      "name": "ВЛАСТЬ АЛГОРИТМОВ",
+      "url": "./assets/img/catastrophe/ВЛАСТЬ АЛГОРИТМОВ.jpg"
+    },
+    {
+      "id": "dbfd4a22-a2eb-42f7-a429-1fd652a8d2a9",
+      "name": "ВОССТАНИЕ РОБОТОВ",
+      "url": "./assets/img/catastrophe/ВОССТАНИЕ РОБОТОВ.jpg"
+    },
+    {
+      "id": "fa66b820-4b73-4653-92b6-6919d8242369",
+      "name": "ВСЕМИРНЫЙ ПОТОП",
+      "url": "./assets/img/catastrophe/ВСЕМИРНЫЙ ПОТОП.jpg"
+    },
+    {
+      "id": "552bc128-34a6-4e60-987f-54430587fd60",
+      "name": "ДИНОЗАВРЫ",
+      "url": "./assets/img/catastrophe/ДИНОЗАВРЫ.jpg"
+    },
+    {
+      "id": "9d0832ff-8e71-4746-a191-b9a76e148c94",
+      "name": "ДУХИ И ПРИЗРАКИ",
+      "url": "./assets/img/catastrophe/ДУХИ И ПРИЗРАКИ.jpg"
+    },
+    {
+      "id": "921229ed-6009-48f9-9630-beb940dfadca",
+      "name": "ЗОМБИ-АПОКАЛИПСИС",
+      "url": "./assets/img/catastrophe/ЗОМБИ-АПОКАЛИПСИС.jpg"
+    },
+    {
+      "id": "d0a7492c-bbe8-4db3-9960-e4016a5f0ba7",
+      "name": "ИНОПЛАНЕТЯНЕ",
+      "url": "./assets/img/catastrophe/ИНОПЛАНЕТЯНЕ.jpg"
+    },
+    {
+      "id": "2761a4e3-d922-43ab-b226-d35f63d55e16",
+      "name": "ИНФ, ВОЙНА",
+      "url": "./assets/img/catastrophe/ИНФ, ВОЙНА.jpg"
+    },
+    {
+      "id": "4f4ce906-4bc4-4f24-bc4c-3fc06ec53739",
+      "name": "КОТАПОКАЛИПСИС",
+      "url": "./assets/img/catastrophe/КОТАПОКАЛИПСИС.jpg"
+    },
+    {
+      "id": "1eeb0277-1ddf-4038-afd1-86409d90509b",
+      "name": "КТУЛХУ",
+      "url": "./assets/img/catastrophe/КТУЛХУ.jpg"
+    },
+    {
+      "id": "eb5e39b6-9c48-4146-a2e2-c18f219769db",
+      "name": "МЕТЕОРИТ",
+      "url": "./assets/img/catastrophe/МЕТЕОРИТ.jpg"
+    },
+    {
+      "id": "4ab00367-32ec-4ff5-9d42-67d0a89611a5",
+      "name": "МУТАНТЫ",
+      "url": "./assets/img/catastrophe/МУТАНТЫ.jpg"
+    },
+    {
+      "id": "470f3056-5de6-4617-b73d-17c815e1d8cb",
+      "name": "ПАНДЕМИЯ",
+      "url": "./assets/img/catastrophe/ПАНДЕМИЯ.jpg"
+    },
+    {
+      "id": "380e3b1f-ef0b-467c-ac40-d3792473a50e",
+      "name": "ПОТЕРЯ ЭСТЕТИКИ",
+      "url": "./assets/img/catastrophe/ПОТЕРЯ ЭСТЕТИКИ.jpg"
+    },
+    {
+      "id": "c3ae6e55-d167-41b6-ae07-0a1c6e3eab55",
+      "name": "РУССКИЙ ЭПОС",
+      "url": "./assets/img/catastrophe/РУССКИЙ ЭПОС.jpg"
+    },
+    {
+      "id": "b91bfa17-de8a-42c3-a9e9-f4ec08e98320",
+      "name": "СТРАДАЮЩИЙ КОЛЯ",
+      "url": "./assets/img/catastrophe/СТРАДАЮЩИЙ КОЛЯ.jpg"
+    },
+    {
+      "id": "d512f644-d7b3-42af-9d74-dacd8b520f47",
+      "name": "СУИЦИДАЛЬНАЯ ФАУНА",
+      "url": "./assets/img/catastrophe/СУИЦИДАЛЬНАЯ ФАУНА.jpg"
+    },
+    {
+      "id": "af94a387-3ef1-41cd-b596-2613be805c38",
+      "name": "СУПЕРВУЛКАНЫ",
+      "url": "./assets/img/catastrophe/СУПЕРВУЛКАНЫ.jpg"
+    },
+    {
+      "id": "89cdf709-141b-415b-b498-94c5b6cd3d39",
+      "name": "ХИМИЧЕСКАЯ ВОЙНА",
+      "url": "./assets/img/catastrophe/ХИМИЧЕСКАЯ ВОЙНА.jpg"
+    },
+    {
+      "id": "f5c770ac-2dce-49f6-8332-ff5328db9788",
+      "name": "ЯДЕРНАЯ ВОЙНА",
+      "url": "./assets/img/catastrophe/ЯДЕРНАЯ ВОЙНА.jpg"
+    }
+  ],
+  "bunker": [
+    {
+      "id": "65d89b39-414c-4286-9e6d-31edeae9d130",
+      "name": "R2D2",
+      "url": "./assets/img/bunker/R2D2.jpg"
+    },
+    {
+      "id": "7776f9c7-6c62-4689-9aaa-2a863b5aa713",
+      "name": "АПТЕЧКИ",
+      "url": "./assets/img/bunker/АПТЕЧКИ.jpg"
+    },
+    {
+      "id": "c89bd6d9-6385-42d2-8a10-b72dcc2567a9",
+      "name": "ВИДЕО СО СПУТНИКА",
+      "url": "./assets/img/bunker/ВИДЕО СО СПУТНИКА.jpg"
+    },
+    {
+      "id": "03a45bdf-ae48-45e1-92f0-47556c359138",
+      "name": "ВМЕСТЕ НА 10 ЛЕТ",
+      "url": "./assets/img/bunker/ВМЕСТЕ НА 10 ЛЕТ.jpg"
+    },
+    {
+      "id": "fd029583-4b73-4611-82bf-70ea8b5ca048",
+      "name": "ГИПНОМОДУЛЬ",
+      "url": "./assets/img/bunker/ГИПНОМОДУЛЬ.jpg"
+    },
+    {
+      "id": "1a19a78e-6e81-44e8-9f39-552b12998cd6",
+      "name": "ГОЛОСОВОЕ УПРАВЛЕНИЕ",
+      "url": "./assets/img/bunker/ГОЛОСОВОЕ УПРАВЛЕНИЕ.jpg"
+    },
+    {
+      "id": "b4a7de33-07dc-43d9-a702-79cfb603b15c",
+      "name": "ГРЕЧКА",
+      "url": "./assets/img/bunker/ГРЕЧКА.jpg"
+    },
+    {
+      "id": "a68d056c-72d5-4ffa-bcfb-822272bfdd43",
+      "name": "ДИНАМО-МАШИНА",
+      "url": "./assets/img/bunker/ДИНАМО-МАШИНА.jpg"
+    },
+    {
+      "id": "93fa013f-cf18-4ba6-baf4-b04ebb41a201",
+      "name": "ЖЕРТВЕННИК",
+      "url": "./assets/img/bunker/ЖЕРТВЕННИК.jpg"
+    },
+    {
+      "id": "b59f3dea-f3aa-419b-a766-9c9f6be3e1f2",
+      "name": "ЗАГАДОЧНЫЙ ЖУРНАЛ",
+      "url": "./assets/img/bunker/ЗАГАДОЧНЫЙ ЖУРНАЛ.jpg"
+    },
+    {
+      "id": "ac3357b2-ee37-40cf-abbe-0da41477f4cb",
+      "name": "ЗАПИСИ КОНТРАБАНДИСТА",
+      "url": "./assets/img/bunker/ЗАПИСИ КОНТРАБАНДИСТА.jpg"
+    },
+    {
+      "id": "e24aa2db-3756-48c6-9e47-abe3d13e57c4",
+      "name": "ИНСТРУКЦИЯ К МИКРОВОЛНОВКЕ",
+      "url": "./assets/img/bunker/ИНСТРУКЦИЯ К МИКРОВОЛНОВКЕ.jpg"
+    },
+    {
+      "id": "53df6cf1-bde6-4bba-868d-548b95f98b46",
+      "name": "КАТАКОМБЫ",
+      "url": "./assets/img/bunker/КАТАКОМБЫ.jpg"
+    },
+    {
+      "id": "d30c5cbe-99ef-4649-b737-09f783d0dfd4",
+      "name": "КЕРОСИНОВЫЕ ЛАМПЫ",
+      "url": "./assets/img/bunker/КЕРОСИНОВЫЕ ЛАМПЫ.jpg"
+    },
+    {
+      "id": "ad6d7253-3913-4e59-b1e7-43327a471488",
+      "name": "КНИГА О ЕДЕ",
+      "url": "./assets/img/bunker/КНИГА О ЕДЕ.jpg"
+    },
+    {
+      "id": "da37031c-8c0d-4ef5-ba6f-6c437263a9e3",
+      "name": "КОФЕ",
+      "url": "./assets/img/bunker/КОФЕ.jpg"
+    },
+    {
+      "id": "62066549-4f95-4b0d-af23-cd83da91b2ba",
+      "name": "КРЫСЫ",
+      "url": "./assets/img/bunker/КРЫСЫ.jpg"
+    },
+    {
+      "id": "0fcc3e92-63c0-4697-bf23-04655f865de4",
+      "name": "МАСТЕРСКАЯ",
+      "url": "./assets/img/bunker/МАСТЕРСКАЯ.jpg"
+    },
+    {
+      "id": "d8dcb48a-2d7c-49fa-8bdf-c1cf2b33974b",
+      "name": "МЕД.ЛАБОРАТОРИЯ",
+      "url": "./assets/img/bunker/МЕД.ЛАБОРАТОРИЯ.jpg"
+    },
+    {
+      "id": "36caf5ef-0a32-4a1c-b4f9-8535b7b3cf96",
+      "name": "МЕДИАТЕКА",
+      "url": "./assets/img/bunker/МЕДИАТЕКА.jpg"
+    },
+    {
+      "id": "c461ddab-2160-47e6-9e8b-293a47db626f",
+      "name": "МУСОР",
+      "url": "./assets/img/bunker/МУСОР.jpg"
+    },
+    {
+      "id": "06cda7e9-f817-4fd1-93b8-ffeb9484933c",
+      "name": "НЕКРОНОМИКОН",
+      "url": "./assets/img/bunker/НЕКРОНОМИКОН.jpg"
+    },
+    {
+      "id": "e10228ec-e4de-4df8-b90b-13ad2942561d",
+      "name": "ПОДВАЛ",
+      "url": "./assets/img/bunker/ПОДВАЛ.jpg"
+    },
+    {
+      "id": "a31cc617-6265-4b85-984c-82c1dd9d461f",
+      "name": "РАДИО",
+      "url": "./assets/img/bunker/РАДИО.jpg"
+    },
+    {
+      "id": "9d2dd1e1-07c4-4107-a0c1-767124156092",
+      "name": "РОБОТ-ПОЛИГРАФ",
+      "url": "./assets/img/bunker/РОБОТ-ПОЛИГРАФ.jpg"
+    },
+    {
+      "id": "56ec9234-4363-42ff-9568-508cdbe3d69a",
+      "name": "СИЛОВОЕ ПОЛЕ",
+      "url": "./assets/img/bunker/СИЛОВОЕ ПОЛЕ.jpg"
+    },
+    {
+      "id": "eea7978d-eca4-42cb-a5ac-0947e675cf3a",
+      "name": "УКЛОН 45",
+      "url": "./assets/img/bunker/УКЛОН 45.jpg"
+    },
+    {
+      "id": "263ef361-deba-4268-bd15-a0d233c524df",
+      "name": "УЧЕБНИК",
+      "url": "./assets/img/bunker/УЧЕБНИК.jpg"
+    },
+    {
+      "id": "72dd8e02-14d0-4f2c-80a6-6bba50be3b0d",
+      "name": "ХИМ.ЛФБОРАТОРИЯ",
+      "url": "./assets/img/bunker/ХИМ.ЛФБОРАТОРИЯ.jpg"
+    },
+    {
+      "id": "3d135ac8-06b5-4d46-9608-2527355a86ff",
+      "name": "ШКАФ С НАСТОЛКАМИ",
+      "url": "./assets/img/bunker/ШКАФ С НАСТОЛКАМИ.jpg"
+    }
+  ],
+  "games": [
+    {
+      "id": "4eaa3a1f-79e5-4d95-9d61-c488b94db409",
+      "createrId": "56eebc2b-9d33-4860-ba0c-9528b2c86f26",
+      "createrName": "Виктор",
+      "countOfPlayers": "5",
+      "playersOrder": 0,
+      "level": 0,
+      "catastrophe": {
+        "id": "921229ed-6009-48f9-9630-beb940dfadca",
+        "name": "ЗОМБИ-АПОКАЛИПСИС",
+        "url": "./assets/img/catastrophe/ЗОМБИ-АПОКАЛИПСИС.jpg"
+      },
+      "bunkerInfo": [],
+      "connectedPlayers": [
+        {
+          "id": "56eebc2b-9d33-4860-ba0c-9528b2c86f26",
+          "name": "Виктор",
+          "order": 0,
+          "cards": []
+        }
+      ]
+    }
+  ]
+}
